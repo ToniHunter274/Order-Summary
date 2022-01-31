@@ -1,0 +1,92 @@
+body {
+	background-image: url(1.svg);
+	background-color: hsl(225, 100%, 94%);
+	background-repeat: no-repeat;
+	font-family: "Red Hat Display";
+}
+
+h2{
+	font-weight: 900;
+}
+
+p{
+	color: rgb(201, 198, 226);
+}
+.fr{
+	border: 2px solid black;
+	border: none;
+	border-radius: 15px;
+	width: 450px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 150px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: "Red Hat Display";
+	background-color: white;
+}
+
+.keft{
+
+    height: 100px;
+	width: 300px;
+	border-radius: 10px;
+	margin: auto;
+	text-align: left;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(226,231,246);
+	display: flex;
+	align-items: center;
+
+}
+
+.keft > .lin{
+	margin-left: auto;
+
+}
+
+.txt{
+	padding-left: 10px;
+	line-height: 25px;
+	font-weight: 800;
+}
+
+.own{
+	font-weight: 400;
+	color: rgb(201, 198, 226);
+}
+.bone{
+	width: 325px;
+	height: 45px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 98%);
+	border-radius: 10px;
+	box-shadow: 0px 20px 10px rgba(0,0,0,0.1);
+	font-family: "Red Hat Display";
+}
+
+.bone:hover{
+background-color: hsl(224, 23%, 55%);
+color: hsl(225, 100%, 94%);
+cursor: pointer;
+}
+
+.bow{
+	border: none;
+	background-color: white;
+	color: hsl(224, 23%, 55%);
+	font-family: "Red Hat Display";
+}
+
+.bow:hover{
+	background-color: hsl(223, 47%, 23%);
+	cursor: pointer;
+}
+img{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
